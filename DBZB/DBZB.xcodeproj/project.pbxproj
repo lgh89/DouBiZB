@@ -11,6 +11,11 @@
 		D75D79151DBC845500AA3F7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75D79131DBC845500AA3F7B /* Main.storyboard */; };
 		D75D79171DBC845500AA3F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75D79161DBC845500AA3F7B /* Assets.xcassets */; };
 		D75D791A1DBC845500AA3F7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75D79181DBC845500AA3F7B /* LaunchScreen.storyboard */; };
+		D75D792A1DBCA4B800AA3F7B /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75D79281DBCA4B800AA3F7B /* Home.storyboard */; };
+		D75D792D1DBCA4DA00AA3F7B /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75D792B1DBCA4DA00AA3F7B /* Live.storyboard */; };
+		D75D79301DBCA4EF00AA3F7B /* follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75D792E1DBCA4EF00AA3F7B /* follow.storyboard */; };
+		D75D79331DBCA50300AA3F7B /* profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75D79311DBCA50300AA3F7B /* profile.storyboard */; };
+		D75D79351DBCA55100AA3F7B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75D79341DBCA55100AA3F7B /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		D75D79161DBC845500AA3F7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D75D79191DBC845500AA3F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D75D791B1DBC845500AA3F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75D79291DBCA4B800AA3F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DBZB/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		D75D792C1DBCA4DA00AA3F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DBZB/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		D75D792F1DBCA4EF00AA3F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DBZB/Base.lproj/follow.storyboard; sourceTree = SOURCE_ROOT; };
+		D75D79321DBCA50300AA3F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DBZB/Base.lproj/profile.storyboard; sourceTree = SOURCE_ROOT; };
+		D75D79341DBCA55100AA3F7B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +64,6 @@
 			children = (
 				D75D79211DBC9D9A00AA3F7B /* Classes */,
 				D75D790F1DBC845500AA3F7B /* AppDelegate.swift */,
-				D75D79131DBC845500AA3F7B /* Main.storyboard */,
 				D75D79161DBC845500AA3F7B /* Assets.xcassets */,
 				D75D79181DBC845500AA3F7B /* LaunchScreen.storyboard */,
 				D75D791B1DBC845500AA3F7B /* Info.plist */,
@@ -78,6 +87,7 @@
 		D75D79221DBC9D9A00AA3F7B /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				D75D792E1DBCA4EF00AA3F7B /* follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -85,6 +95,7 @@
 		D75D79231DBC9D9A00AA3F7B /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D75D79281DBCA4B800AA3F7B /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -92,6 +103,7 @@
 		D75D79241DBC9D9A00AA3F7B /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				D75D792B1DBCA4DA00AA3F7B /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -99,6 +111,8 @@
 		D75D79251DBC9D9A00AA3F7B /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				D75D79131DBC845500AA3F7B /* Main.storyboard */,
+				D75D79341DBCA55100AA3F7B /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -106,6 +120,7 @@
 		D75D79261DBC9D9A00AA3F7B /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				D75D79311DBCA50300AA3F7B /* profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -177,9 +192,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D75D79331DBCA50300AA3F7B /* profile.storyboard in Resources */,
 				D75D791A1DBC845500AA3F7B /* LaunchScreen.storyboard in Resources */,
 				D75D79171DBC845500AA3F7B /* Assets.xcassets in Resources */,
 				D75D79151DBC845500AA3F7B /* Main.storyboard in Resources */,
+				D75D79301DBCA4EF00AA3F7B /* follow.storyboard in Resources */,
+				D75D792D1DBCA4DA00AA3F7B /* Live.storyboard in Resources */,
+				D75D792A1DBCA4B800AA3F7B /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D75D79101DBC845500AA3F7B /* AppDelegate.swift in Sources */,
+				D75D79351DBCA55100AA3F7B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +223,7 @@
 				D75D79141DBC845500AA3F7B /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D75D79181DBC845500AA3F7B /* LaunchScreen.storyboard */ = {
@@ -211,6 +232,42 @@
 				D75D79191DBC845500AA3F7B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D75D79281DBCA4B800AA3F7B /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D75D79291DBCA4B800AA3F7B /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		D75D792B1DBCA4DA00AA3F7B /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D75D792C1DBCA4DA00AA3F7B /* Base */,
+			);
+			name = Live.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		D75D792E1DBCA4EF00AA3F7B /* follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D75D792F1DBCA4EF00AA3F7B /* Base */,
+			);
+			name = follow.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		D75D79311DBCA50300AA3F7B /* profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D75D79321DBCA50300AA3F7B /* Base */,
+			);
+			name = profile.storyboard;
+			path = ../Main;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -314,6 +371,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 5J4EXE97U8;
 				INFOPLIST_FILE = DBZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lgh.DBZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -328,6 +386,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 5J4EXE97U8;
 				INFOPLIST_FILE = DBZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lgh.DBZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
