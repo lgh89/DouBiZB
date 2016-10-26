@@ -17,6 +17,7 @@ class MainViewController: UITabBarController {
         addChildVCWithName("Live")
         addChildVCWithName("follow")
         addChildVCWithName("profile")
+     
     }
 
     
